@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>h1{
+    text-align: center;
+}
+
+#hotel_details{
+    width: 1000px;
+    margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+.box{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box img{
+    height: 300px;
+    width: 49%;
+}
+
+.hotel>p{
+    margin:10px 0px;
+    font-size: 18px;
+}
+
+form{
+    padding: 5px;
+    border: 1px solid rgb(196, 228, 255);
+    border-radius: 8px;
+    background-color: rgb(212, 235, 255);
+    width: 65%;
+    height: 45px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form>input{
+    padding: 0px 5px;
+    height: 90%;
+    font-size: 18px;
+}
